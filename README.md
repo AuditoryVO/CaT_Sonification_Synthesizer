@@ -1,5 +1,5 @@
 # CaT-Sonification-Synthesizer
-Implementation of the deep learning feature extraction sonification synthesizer for the exploration of the stellar spectra of the CaT library. Jupiter Notebook analysis and CSound/Cabbage multimodal display.
+Implementation of the deep learning feature extraction sonification synthesizer for the exploration of the stellar spectra of the CaT library (SVO). Jupiter Notebook analysis and CSound/Cabbage multimodal display.
 
 
 
