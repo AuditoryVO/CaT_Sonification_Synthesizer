@@ -1,14 +1,13 @@
 # CaT-Sonification-Synthesizer
-Implementation of the deep learning feature extraction sonification synthesizer for the exploration of the stellar spectra of the CaT library (SVO). Jupiter Notebook analysis and CSound/Cabbage multimodal display.
+Implementation of the deep learning feature extraction sonification synthesizer for the exploration of the stellar spectra from the CaT library (SVO). Jupiter Notebook analysis and CSound/Cabbage multimodal display.
 
-
-
--------------------------------TO MODIFY-------------
 CONTENTS
-- Jupyter notebook: AutoFITS2Sound-Demo.ipynb
-- CSound/Cabbage file: AutoFITS2Sound.csd
+- Jupyter notebook 1: CaT_2Layers_6D_Autoencoder.ipynb
+- Jupyter notebook 2: CaT_Synth_Preprocess.ipynb
+- Jupyter notebook 3: CaT_Synth.ipynb
+- CSound/Cabbage file: CaT_Synth.csd
 - Cabbage mask file: Init.png
-- Sample spectrum: Spectra.png
+- Sample spectrum: Spectrum.png
 - LICENSE
 - README
 - requirements.txt
@@ -25,21 +24,24 @@ CABBAGE/CSOUND INSTALLATION
    Latests versions of CSound require additional plugins to work with the image CSound opcodes, so they should not be used.
 
 
-AUTOFITS2SOUND INSTALLATION
+CaT SYNTHESIZER INSTALLATION
 
-1- Download the spectra from: http://svocats.cab.inta-csic.es/stelib/index.php?action=credits
+1- Download the spectra from: http://svocats.cab.inta-csic.es/catlib
 
-2- Download all the content of this repository into the same folder
+2- Clone or download all the content of this repository into the same folder
 
 3- Install all the dependencies included in the requirements.txt file
 
 4- To reproduce the sonifications:
-   - Launch Cabbage, open AutoFITS2Sound.csd, and press play
+   - Run the Jupyter notebook 1 (CaT_2Layers_6D_Autoencoder.ipynb) to encode the spectra
+   - Add your path to the downloaded files before running all the cells
+   - Run the Jupyter notebook 2 (CaT_Synth_Preprocess.ipynb) to preprocess the images and the spectra
+   - Connect a piano keyboard MIDI controller
+   - Launch Cabbage, open CaT_Synth.csd, and press play
 
    Important note: Cabbage 2.9.0 requires CamelCase update via: File/Convert Identifiers to camelCase. Also change manually “PluginID” to “PulginId” to avoid warnings.
-     
-   - Run the Jupyter notebook (AutoFITS2Sound-Demo.ipynb)
-   - Add your path to the downloaded files before running all the cells
+
+   - Run the Jupyter notebook 3 (CaT_Synth.ipynb) to launch the synthesizer.
 
 Enjoy the sonifications!
 
