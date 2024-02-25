@@ -1,0 +1,11 @@
+astropy==5.1
+matplotlib==3.6.0
+numpy==1.22.3
+tensorflow==2.9.1
+scipy==1.7.3
+sklearn==1.1.1
+PIL==9.2.0
+music21==6.7.1
+pygame==2.0.1
+python_osc==1.7.4
+session_info==1.0.0
