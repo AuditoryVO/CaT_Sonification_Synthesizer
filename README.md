@@ -6,6 +6,7 @@ CONTENTS
 - Jupyter notebook 1: CaT_2Layers_6D_Autoencoder.ipynb
 - Jupyter notebook 2: CaT_Synth_Preprocess.ipynb
 - Jupyter notebook 3: CaT_Synth.ipynb
+- Jupyter notebook 4: Evaluation.ipynb
 - CSound/Cabbage file: CaT_Synth.csd
 - Cabbage mask file: Init.png
 - Sample spectrum: Spectrum.png
