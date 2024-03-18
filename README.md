@@ -43,7 +43,7 @@ CaT SYNTHESIZER INSTALLATION
    - Connect a piano keyboard MIDI controller
    - Launch Cabbage, open CaT_Synth.csd, and press play
 
-   Important note: Cabbage 2.9.0 requires CamelCase update via: File/Convert Identifiers to camelCase. Also change manually “PluginID” to “PulginId” to avoid warnings.
+   Important note: Cabbage 2.9.0 requires CamelCase update via: File/Convert Identifiers to camelCase. Also change manually “PluginID” to “PluginId” to avoid warnings.
 
    - Run the Jupyter notebook 3 (CaT_Synth.ipynb) to launch the synthesizer.
 
